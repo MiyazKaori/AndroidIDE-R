@@ -24,6 +24,15 @@
   <string name="app_logs">App Logs</string>
   <string name="ide_logs">IDE Logs</string>
   <!-- AndroidIDE-R -->
+  <string name="new_module">New Module</string>
+  <string name="module_name">Module Name</string>
+  <string name="module_pkg_name">Package Name</string>
+  <string name="msg_module_creation_failed">Failed to create module!</string>
+  <string name="msg_not_found_settings_file">Setings file not found!</string>
+  <string name="msg_settings_file_update_failed">Failed to update settings!</string>
+  <string name="msg_module_sync_failed">Failed to sync module!</string>
+  <string name="msg_module_configure_failed">Failed to configuration module!</string>
+  <string name="msg_module_created">Module created successfully!</string>
   <string name="discussions_on_qq">Discussions on QQ</string>
   <string name="idepref_installViaShizuku_title">Install Via Shizuku</string>
   <string name="idepref_installViaShizuku_summary">If enabled, the IDE will perform silent installation via Shizuku. Please make sure Shizuku is installed and activated.</string>

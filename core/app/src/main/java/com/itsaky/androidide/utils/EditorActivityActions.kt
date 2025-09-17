@@ -46,6 +46,7 @@ import com.itsaky.androidide.actions.filetree.NewFileAction
 import com.itsaky.androidide.actions.filetree.NewFolderAction
 import com.itsaky.androidide.actions.filetree.OpenWithAction
 import com.itsaky.androidide.actions.filetree.RenameAction
+import com.itsaky.androidide.actions.filetree.NewModuleAction
 import com.itsaky.androidide.actions.text.RedoAction
 import com.itsaky.androidide.actions.text.UndoAction
 
@@ -65,26 +66,26 @@ class EditorActivityActions {
       var order = 0
 
       // Toolbar actions
-      registry.registerAction(UndoAction(context, order++))
-      registry.registerAction(RedoAction(context, order++))
-      registry.registerAction(QuickRunWithCancellationAction(context, order++))
-      registry.registerAction(RunTasksAction(context, order++))
-      registry.registerAction(SaveFileAction(context, order++))
-      registry.registerAction(PreviewLayoutAction(context, order++))
-      registry.registerAction(FindActionMenu(context, order++))
-      registry.registerAction(ProjectSyncAction(context, order++))
-      registry.registerAction(ReloadColorSchemesAction(context, order++))
-      registry.registerAction(DisconnectLogSendersAction(context, order++))
-      registry.registerAction(LaunchAppAction(context, order++))
+      registry.registerAction(UndoAction(context, order++)) // 0
+      registry.registerAction(RedoAction(context, order++)) // 1
+      registry.registerAction(QuickRunWithCancellationAction(context, order++)) // 2
+      registry.registerAction(RunTasksAction(context, order++)) // 3
+      registry.registerAction(SaveFileAction(context, order++)) // 4
+      registry.registerAction(PreviewLayoutAction(context, order++)) // 5
+      registry.registerAction(FindActionMenu(context, order++)) // 6
+      registry.registerAction(ProjectSyncAction(context, order++)) // 7
+      registry.registerAction(ReloadColorSchemesAction(context, order++)) // 8
+      registry.registerAction(DisconnectLogSendersAction(context, order++)) // 9
+      registry.registerAction(LaunchAppAction(context, order++)) // 10
 
       // editor text actions
-      registry.registerAction(ExpandSelectionAction(context, order++))
-      registry.registerAction(SelectAllAction(context, order++))
-      registry.registerAction(LongSelectAction(context, order++))
-      registry.registerAction(CutAction(context, order++))
-      registry.registerAction(CopyAction(context, order++))
-      registry.registerAction(PasteAction(context, order++))
-      registry.registerAction(FormatCodeAction(context, order++))
+      registry.registerAction(ExpandSelectionAction(context, order++)) // 11
+      registry.registerAction(SelectAllAction(context, order++)) // 12
+      registry.registerAction(LongSelectAction(context, order++)) // 13
+      registry.registerAction(CutAction(context, order++)) // 14
+      registry.registerAction(CopyAction(context, order++)) // 15
+      registry.registerAction(PasteAction(context, order++)) // 16
+      registry.registerAction(FormatCodeAction(context, order++)) // 17
 
       // file tab actions
       registry.registerAction(CloseFileAction(context, order++))
@@ -96,6 +97,7 @@ class EditorActivityActions {
       registry.registerAction(DeleteAction(context, order++))
       registry.registerAction(NewFileAction(context, order++))
       registry.registerAction(NewFolderAction(context, order++))
+      registry.registerAction(NewModuleAction(context, order++))
       registry.registerAction(OpenWithAction(context, order++))
       registry.registerAction(RenameAction(context, order++))
     }

@@ -20,6 +20,7 @@
   <string name="app_logs">应用日志</string>
   <string name="ide_logs">IDE 日志</string>
   <!-- AndroidIDE-R -->
+  <string name="new_module">新模块</string>
   <string name="discussions_on_qq">在 QQ 上讨论</string>
   <string name="idepref_installViaShizuku_title">通过 Shizuku 安装</string>
   <string name="idepref_installViaShizuku_summary">如果启用，IDE 将会通过 Shizuku 进行静默安装，请确保您已经安装并激活了 Shizuku</string>
