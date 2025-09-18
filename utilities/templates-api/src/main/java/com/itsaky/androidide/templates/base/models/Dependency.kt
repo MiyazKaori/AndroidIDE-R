@@ -46,11 +46,17 @@ data class Dependency(val configuration: DependencyConfiguration,
     private const val navigationVersion = "2.5.3"
 
     @JvmStatic
-    val AppCompat = parseDependency("androidx.appcompat:appcompat:1.6.1")
+    val AppCompat = parseDependency("androidx.appcompat:appcompat:1.7.1")
+    
+    @JvmStatic
+    val Core = parseDependency("androidx.core:core:1.17.0")
+
+    @JvmStatic
+    val Annotation = parseDependency("androidx.annotation:annotation:1.9.1")
 
     @JvmStatic
     val ConstraintLayout =
-      parseDependency("androidx.constraintlayout:constraintlayout:2.1.4")
+      parseDependency("androidx.constraintlayout:constraintlayout:2.2.1")
 
     @JvmStatic
     val LifeCycle_LiveData = parseDependency(
@@ -127,6 +133,6 @@ data class Dependency(val configuration: DependencyConfiguration,
   object Google {
 
     @JvmStatic
-    val Material = parseDependency("com.google.android.material:material:1.9.0")
+    val Material = parseDependency("com.google.android.material:material:1.13.0")
   }
 }

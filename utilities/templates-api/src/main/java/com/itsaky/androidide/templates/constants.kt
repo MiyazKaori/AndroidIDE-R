@@ -19,14 +19,20 @@ package com.itsaky.androidide.templates
 
 /**
  * @author Akash Yadav
+ * @update 
+ * - ANDROID_GRADLE_PLUGIN_VERSION 8.9.1
+ * - GRADLE_DISTRIBUTION_VERSION 8.11.1
+ * - .SDK_VERSION 36
+ * - .JAVA_VERSION 17
+ * ! Warn: No update the kotlin version
  */
 
-const val ANDROID_GRADLE_PLUGIN_VERSION = "8.0.0"
-const val GRADLE_DISTRIBUTION_VERSION = "8.1.1"
+const val ANDROID_GRADLE_PLUGIN_VERSION = "8.9.1"
+const val GRADLE_DISTRIBUTION_VERSION = "8.11.1"
 const val KOTLIN_VERSION = "1.8.21"
 
-val TARGET_SDK_VERSION = Sdk.Tiramisu
-val COMPILE_SDK_VERSION = Sdk.Tiramisu
+val TARGET_SDK_VERSION = Sdk.BAKLAVA
+val COMPILE_SDK_VERSION = Sdk.BAKLAVA
 
-const val JAVA_SOURCE_VERSION = "11"
-const val JAVA_TARGET_VERSION = "11"
+const val JAVA_SOURCE_VERSION = "17"
+const val JAVA_TARGET_VERSION = "17"

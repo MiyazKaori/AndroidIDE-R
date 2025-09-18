@@ -43,6 +43,7 @@ public class BaseApplication extends Application {
   public static final String CONTRIBUTOR_GUIDE_URL =
       BuildInfo.REPO_URL + "/blob/dev/docs/en/CONTRIBUTING.md";
   public static final String EMAIL = "contact@androidide.com";
+  public static final String QQ_GROUP_NUMBER = "524317060";
   private static BaseApplication instance;
   private PreferenceManager mPrefsManager;
 

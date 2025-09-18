@@ -21,6 +21,15 @@
   <string name="ide_logs">IDE 日志</string>
   <!-- AndroidIDE-R -->
   <string name="new_module">新模块</string>
+  <string name="module_name">模块名称</string>
+  <string name="module_pkg_name">模块包名</string>
+  <string name="msg_module_creation_failed">模块创建失败!</string>
+  <string name="msg_not_found_settings_file">没有找到 Settings 文件!</string>
+  <string name="msg_settings_file_update_failed">Settings 文件更新失败!</string>
+  <string name="msg_module_sync_failed">模块同步失败!</string>
+  <string name="msg_module_configure_failed">模块配置失败!</string>
+  <string name="msg_module_created">模块创建成功</string>
+  
   <string name="discussions_on_qq">在 QQ 上讨论</string>
   <string name="idepref_installViaShizuku_title">通过 Shizuku 安装</string>
   <string name="idepref_installViaShizuku_summary">如果启用，IDE 将会通过 Shizuku 进行静默安装，请确保您已经安装并激活了 Shizuku</string>

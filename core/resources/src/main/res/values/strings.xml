@@ -32,7 +32,7 @@
   <string name="msg_settings_file_update_failed">Failed to update settings!</string>
   <string name="msg_module_sync_failed">Failed to sync module!</string>
   <string name="msg_module_configure_failed">Failed to configuration module!</string>
-  <string name="msg_module_created">Module created successfully!</string>
+  <string name="msg_module_created">Module created successfully</string>
   <string name="discussions_on_qq">Discussions on QQ</string>
   <string name="idepref_installViaShizuku_title">Install Via Shizuku</string>
   <string name="idepref_installViaShizuku_summary">If enabled, the IDE will perform silent installation via Shizuku. Please make sure Shizuku is installed and activated.</string>

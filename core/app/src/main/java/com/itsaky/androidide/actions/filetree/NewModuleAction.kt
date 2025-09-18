@@ -244,6 +244,10 @@ android {
     namespace '$pkgName'
     
     compileSdk 36
+    
+    defaultConfig {
+        minSdk 26
+    }
 
     buildTypes {
         release {

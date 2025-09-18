@@ -23,6 +23,8 @@ import com.itsaky.androidide.templates.base.models.Dependency
  * Configures the template to use AndroidX and Material Design Components dependencies.
  */
 fun AndroidModuleTemplateBuilder.baseAndroidXDependencies() {
+  addDependency(Dependency.AndroidX.Core)
+  addDependency(Dependency.AndroidX.Annotation)
   addDependency(Dependency.AndroidX.AppCompat)
   addDependency(Dependency.AndroidX.ConstraintLayout)
   addDependency(Dependency.Google.Material)
